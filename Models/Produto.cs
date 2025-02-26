@@ -1,9 +1,12 @@
-﻿using SQLite;
+﻿//declarando o que vai ser usado
+using SQLite;
 
 namespace MauiAppMinhasCompras.Models
 {
     public class Produto
     {
+        //Atribuindo o tipo de cada produto
+
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
 

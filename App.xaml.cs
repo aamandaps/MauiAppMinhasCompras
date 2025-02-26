@@ -6,6 +6,7 @@
         {
             InitializeComponent();
 
+            //Troca da tela inicial
            // MainPage = new AppShell();
            MainPage = new NavigationPage(new Views.ListaProduto());
         }
